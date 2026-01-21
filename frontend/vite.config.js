@@ -1,5 +1,5 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -19,6 +19,6 @@ export default defineConfig({
     mockReset: true, // réinitialise automatiquement les mocks entre chaque test
     coverage: {
       reporter: ['text', 'html'], // affiche le rapport de couverture dans le terminal et en HTML
-    },
-  },
+    }
+  }
 })
