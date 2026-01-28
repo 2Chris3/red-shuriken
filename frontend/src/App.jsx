@@ -19,6 +19,7 @@ const App = () => {
         <div className="contact"></div>
         <div className="author"></div>
         <div className="logo"></div>
+        <div></div>
       </footer>
     </>
   )
