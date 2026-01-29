@@ -20,5 +20,8 @@ export default defineConfig({
     coverage: {
       reporter: ['text', 'html'], // affiche le rapport de couverture dans le terminal et en HTML
     }
+  },
+  build: {
+    outDir: 'prod' // default is 'dist'
   }
 })
